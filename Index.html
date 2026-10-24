@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102747">
+  <title>Brevca | Railway Office Works</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #17243a;
+      background: #f4f7fb;
+    }
+    header {
+      background: #102747;
+      color: white;
+      padding: 20px;
+    }
+    nav {
+      max-width: 1050px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo { font-size: 27px; font-weight: bold; }
+    .hero {
+      background: linear-gradient(135deg, #102747, #176b87);
+      color: white;
+      padding: 65px 22px;
+      text-align: center;
+    }
+    .hero h1 { font-size: clamp(30px, 6vw, 48px); }
+    .hero p {
+      max-width: 650px;
+      margin: 18px auto;
+      line-height: 1.7;
+    }
+    .button {
+      display: inline-block;
+      background: #ffc857;
+      color: #102747;
+      padding: 13px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+    main {
+      max-width: 1050px;
+      margin: auto;
+      padding: 35px 18px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 3px 14px #10274712;
+    }
+    .card h3 { color: #176b87; }
+    .card p { line-height: 1.6; }
+    footer {
+      text-align: center;
+      background: #102747;
+      color: white;
+      padding: 22px;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Brevca</div>
+      <div>Railway Office Works</div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Brevca</h1>
+    <p>
+      A smarter workspace for railway office tasks.
+      Organise registers, prepare statements, manage data
+      and simplify everyday office work in one place.
+    </p>
+    <a class="button" href="#services">Explore Services</a>
+  </section>
+
+  <main id="services">
+    <h2>Our Services</h2>
+    <p>Simple digital tools for everyday office work.</p>
+
+    <div class="services">
+      <article class="card">
+        <h3>📋 Digital Registers</h3>
+        <p>Organise office register information in a structured format.</p>
+      </article>
+      <article class="card">
+        <h3>📊 Statements</h3>
+        <p>Prepare and organise routine office statements.</p>
+      </article>
+      <article class="card">
+        <h3>📁 Reports</h3>
+        <p>Keep work reports organised and easy to review.</p>
+      </article>
+      <article class="card">
+        <h3>⌨️ Data Entry</h3>
+        <p>Make routine data entry simpler and more consistent.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>Brevca © 2026</p>
+    <p>Railway Office Work Management</p>
+  </footer>
+</body>
+</html>
